@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- navbar -->
+    <div class="nav" id="nav">
+      <img src="material/Netflixlogo.png" alt="" class="nav_logo" />
+      <div>
+        <img src="material/search.png" alt="" class="nav_search" />
+        <img src="material/avatar.png" alt="" class="nav_search avatar" />
+      </div>
+    </div>
     <!-- banner -->
     <div class="banner" id="banner">
       <div class="homepage">
@@ -142,6 +150,14 @@
       function changeTitle() {
         document.getElementById("myList").innerHTML = "Added";
       }
+      const nav = document.getElementById("nav");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add("nav_black");
+        } else {
+          nav.classList.remove("nav_black");
+        }
+      });
     </script>
   </body>
 </html>

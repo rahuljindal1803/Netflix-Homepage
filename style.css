@@ -17,7 +17,8 @@ body {
 .shows {
   width: 100%;
   object-fit: contain;
-  max-height: 100px;
+  max-height: 150px;
+  border-radius: 5px;
   margin-right: 10px;
   transition: transform 450ms;
 }
@@ -37,6 +38,7 @@ body {
 
 .main {
   max-height: 200px;
+  border-radius: 20px;
 }
 .main:hover {
   transform: scale(1.09);
@@ -108,4 +110,33 @@ body {
   color: #000;
   background-color: #e6e6e6;
   transition: all 0.2s;
+}
+
+.nav_logo {
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav_search {
+  width: 30x;
+  object-fit: contain;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding-left: 30px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background-color: #111;
+}
+.avatar {
+  margin-right: 10px;
 }
