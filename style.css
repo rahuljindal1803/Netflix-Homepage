@@ -41,7 +41,9 @@ body {
 .main:hover {
   transform: scale(1.09);
 }
-
+.homepage {
+  height: 500px;
+}
 /* banner */
 
 .banner {
@@ -56,7 +58,7 @@ body {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 200px;
   background: linear-gradient(to top, #111, transparent);
 }
 .image {
