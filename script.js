@@ -1,4 +1,4 @@
-/* player = document.getElementById("video");
+player = document.getElementById("video");
 btnPlayPause = document.getElementById("btnPlayPause");
 player.addEventListener(
   "play",
@@ -39,4 +39,3 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("nav_black");
   }
 });
- */
